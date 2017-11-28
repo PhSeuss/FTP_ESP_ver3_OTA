@@ -81,7 +81,7 @@ byte FTPEthernetProcess();
 void StoreData(void);
 char Setup();
 void clearArray(char * str, byte count);
-
+int var;
 
 const char* ssid = "BKIT ESP8266";
 const char* wifi_password = "cselabc5c6";
