@@ -149,7 +149,7 @@ WiFi.mode(WIFI_STA);
 //  Ethernet.begin(mac);
   EEPROM.begin(EPROM_MEMORY_SIZE);
   BusyOff();
-  Serial.println("ESP Ethernet version 3.0\r\nFTP-28112017");
+  Serial.println("ESP Ethernet version 3.0\r\nFTP-15112017");
   next = millis();
   ESP.wdtEnable(WDTO_8S);
 }
