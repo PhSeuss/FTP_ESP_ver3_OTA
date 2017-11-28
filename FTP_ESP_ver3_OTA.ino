@@ -3,6 +3,12 @@
 #include <WiFiUdp.h>
 #include <ArduinoOTA.h>
 
+/*
+   FTP passive client for IDE v1.0.1 and w5100/w5200
+   Posted October 2012 by SurferTim
+   Modified 6 June 2015 by SurferTim
+*/
+
 #include <UIPEthernet.h>
 #include <EEPROM.h>
 
